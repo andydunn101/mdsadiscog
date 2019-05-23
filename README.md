@@ -18,7 +18,7 @@ and what tracks are on each album.
 
 ### WireFrames
 
-All wireframes can be found in the pdf document [mdsadesign.pdf](mdsadesign.pdf)
+All wireframes can be found in the pdf document [/assets/wireframes/mdsadesign.pdf](assets/wireframes/mdsadesign.pdf)
 
 
 ## Features
@@ -58,6 +58,7 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](mdsadesign.pdf)
 
 - Bootstrap framework
 	- Provide the framework to build a user friendly website
+	- Use of JavaScript to implement the navigation bars and dropdown features
 -Font Awesome
 	- Used to provide standard font images
 - Google Fonts
