@@ -56,13 +56,15 @@ All wireframes can be found in the pdf document [/assets/wireframes/mdsadesign.p
 
 ## Technologies Used
 
-- Bootstrap framework
+- Bootstrap framework (https://getbootstrap.com/)
 	- Provide the framework to build a user friendly website
 	- Use of JavaScript to implement the navigation bars and dropdown features
--Font Awesome
-	- Used to provide standard font images
-- Google Fonts
-    - Providing standard Font Types 
+- Bootswatch (https://bootswatch.com)
+    - To use a specific bootstrap theme for the website. The theme used is "Darkly"
+- Font Awesome (https://fontawesome.com/start)
+	- Used to provide standard font images, used in the footer.
+- Google Fonts (https://fonts.google.com/)
+    - Providing standard Font Types Roboto, Lato and Ranga 
 
 ## Deployment
 
