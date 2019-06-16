@@ -2,6 +2,15 @@
 
 /* ---------------------------------------------------- Colours */
 
+.bg_biog_section {
+    background-color: rgba(55, 90, 127, .5);
+}
+
+.bg_disc_section {
+    background-color: rgba(8, 2, 63, 0.5);
+}
+
+
 /* ---------------------------------------------------- Special paddings/margins/text */
 
 h1,
@@ -10,6 +19,7 @@ h3,
 h4 {
     margin: 0;
 }
+
 
 /* ---------------------------------------------------- Heading */
 
@@ -34,16 +44,22 @@ header {
 
 .general-sub {
     font-family: "Roboto", sans-serif;
-    font-size: small;
+    font-size: 20px;
     font-weight: 300;
-    color: #fff;
+    color: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .inline-block {
     display: inline-block;
 }
 
-
+.album-track-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
 
 
 /* ---------------------------------------------------- Navbar */
@@ -77,21 +93,37 @@ header {
     color: #74e5f0 !important;
 }
 
-.navbar .navbar-nav .nav-item a:hover {
-    color: #74e5f0;
-}
-
 .navbar .dropdown-menu {
     border: hidden;
     background-color: rgba(55, 90, 127, .5);
+}
+
+
+/* ---------------------------------------------------- Hover.css */
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #74e5f0;
 }
 
 .navbar .dropdown-menu .dropdown-item:hover {
     color: #74e5f0;
 }
 
+.btn:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.25);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
-/* ---------------------------------------------------- Hover.css */
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 
 /* ---------------------------------------------------- Footer */
 
@@ -115,7 +147,6 @@ footer {
     padding-bottom: 2px;
     padding-left: 25%;
 }
-
 
 .social-links li a i {
     width: 16px;
@@ -141,33 +172,157 @@ footer {
     padding: 10px;
 }
 
+
 /* ---------------------------------------------------- Biographical Info */
+
+.biog-image-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biog-image {
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #375a7f;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.biog-text {
+    font-family: "Lato", sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 30px;
+    padding-left: 10px;
+}
+
 
 /* ---------------------------------------------------- Video Audio */
 
+.video-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-size {
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+
 /* ---------------------------------------------------- Albums */
 
-/* ---------------------------------------------------- Contact Form */
+.album-text {
+    font-family: "Lato", sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.album-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-size {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.album-details-header {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fafafa;
+    padding: 0;
+}
+
+.album-details {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fafafa;
+    text-align: left;
+}
+
+.album-details-text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.album-track-text {
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.collapse {
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------- Album Backgrounds */
+
+#album-background-black {
+    background-color: #000;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-red {
+    background-color: #f12e28;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-skyblue {
+    background-color: #2cb4eb;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+
+/*---------------------------------------------------- Contact Form */
+
 
 /* ---------------------------------------------------- Media Queries */
 
-@media (min-width: 1024px) {
-
+@media (min-width: 1000px) {
     .navbar-brand {
         font-size: 30px;
         padding-right: 50px;
     }
-
+    .general-sub {
+        font-size: 30px;
+        color: #fafafa;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
     .footer-text {
         font-family: "Lato", sans-serif;
         font-size: 15px;
     }
-
     .social-links {
         padding-bottom: 10px;
         padding-left: 25%;
     }
-
     .social-links li a i {
         width: 32px;
         height: 32px;
@@ -175,5 +330,18 @@ footer {
         border-radius: 50%;
         font-size: 16px;
         line-height: 4px;
+    }
+    .video-position .video-size {
+        margin: 10px;
+        height: 500px;
+        width: 900px;
+    }
+    .album-size {
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+    }
+    .album-track-text {
+        font-size: 12.5px;
     }
 }

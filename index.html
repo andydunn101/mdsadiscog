@@ -25,14 +25,14 @@
                     <a href="index.html" class="navbar-brand">Miles Davis Studio Albums</a>
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle Navigation">
                         <span class="navbar-toggler-icon"></span>
-			            </button>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarColor01">
                         <ul class="navbar-nav mr-auto">
                             <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Albums by Decade
-                                    </a>
+                                    Albums by Decade
+                                </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="album1950.html">The 1950s</a>
                                     <a class="dropdown-item" href="album1960.html">The 1960s</a>
@@ -53,60 +53,319 @@
 
     </header>
 
+    <!-- Biographical Information -->
+    <section class="bg_biog_section">
+        <h2 class="general-sub ">Miles - The Greatest Jazz Musician</h2>
+        <div class="container-fluid ">
+            <div class="row no gutters">
+
+                <div class="general-sub ">
+
+                    <div class="row no-gutters">
+                        <div class="col-sm-3 biog-image-position">
+                            <img class="biog-image" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Miles_Davis_by_Palumbo_cropped.jpg" alt="Miles Davis by Palumbo">
+                        </div>
+                        <div class="col-sm-9 ">
+                            <div class="biog-text">
+                                <p>
+                                    In 2009 I went to a Carlos Santana concert and when he appeared on stage he was wearing a T-shirt reading "Listen to Miles Davis" and I did. It must have been somewhere in my psyche as my Dad listened to jazz, so it was not great leap of faith to listen
+                                    jazz.
+                                </p>
+                                <p>
+                                    Miles Davis (May 26, 1926 – September 28, 1991) was an American jazz trumpeter, bandleader and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th century music. Dring his career he took various musical directions
+                                    which kept him at the forefront of most of the developments in jazz. During his time he worked with some of the greats of jazz and popular music, such as Charlie Parker, John Coltrane, Herbie Hancock and many more.
+                                    In 2006, Davis was inducted into the Rock and Roll Hall of Fame, which recognized him as "one of the key figures in the history of jazz."
+                                </p>
+                                <p>
+                                    This website shows the volume of studio work that Miles undertook during his career. It does not include live albums, film scores, compilations or box sets. Watch a classic performance of "So What" below.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video/Audio -->
     <section>
-        <h1>Home</h1>
-        <!-- Biographical Information -->
-        <div class="row ">
-            <div class="col ">
-                
+        <h2 class="general-sub">"So What"</h2>
+        <div class="container-fluid row no-gutters">
+            <!-- >h3>This is going to be a video</h3-->
+            <div class="col-12 video-position">
+                <iframe class="video-size" src="https://www.youtube.com/embed/zqNTltOGh5c">
+                </iframe>
             </div>
         </div>
-
-        <!-- Video/Audio -->
-        <div class="row ">
-            <div class="col ">
-                
-            </div>
+    </section>
+    <!-- Studio Album Details -->
+    <section class="bg_disc_section">
+        <h2 class="general-sub">My Recommendations</h2>
+        <div>
+            <p class="album-text">
+                The recommendations below are my favorite Miles Davis albums, I am not going to try and explain them musically, just listen to them. Admittedly "The Birth of the Cool" is a compilation album, but it was the first CD I bought after seeing the Carlos Santana
+                concert.
+            </p>
         </div>
-
-        <!-- Studio Album Details -->
-        <div class="row ">
-            <div class="col ">
-                
+        <div class="container-fluid">
+            <div class="row no-gutters" id="myrecomendations">
+                <div class="col-sm-6">
+                    <div class="album-position" id="birthofthecool">
+                        <button class="btn" data-toggle="collapse" data-target="#collapsebotc">
+                            <img class="album-size" src="assets/image/birthofthecool.jpg " alt="Birth of the Cool">
+                        </button>
+                    </div>
+                    <div id="collapsebotc" class="collapse" aria-labelledby="birthofthecool" data-parent="#myrecomendations">
+                        <div class="album-details ">
+                            <p>The Birth of the Cool</p>
+                            <p>Label: <span class="album-details-text">Capital</span> </p>
+                            <p>Format: <span class="album-details-text">CD</span> </p>
+                            <p>Year of Release: <span class="album-details-text">1988</span> </p>
+                            <hr class="block-divider block-divider--short block-divider--red">
+                            <table class="table table-bordered">
+                                <thead class="thead-dark table-bordered--dark album-track-header">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Writer(s)</th>
+                                        <th scope="col">Length</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="album-background-black" class="album-track-text">
+                                    <tr class="table-bordered--dark ">
+                                        <td>1</td>
+                                        <td>Move</td>
+                                        <td>Denzil Best, arranged by John Lewis</td>
+                                        <td>2:32</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>2</td>
+                                        <td>Jeru</td>
+                                        <td>Gerry Mulligan</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>3</td>
+                                        <td>Moon Dreams</td>
+                                        <td>Chummy MacGregor, Johnny Mercer, arranged by Gil Evans</td>
+                                        <td>3:17</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>4</td>
+                                        <td>Venus de Milo</td>
+                                        <td>Gerry Mulligan</td>
+                                        <td>3:10</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>5</td>
+                                        <td>Budo</td>
+                                        <td>Miles Davis, Bud Powell, arranged by John Lewis</td>
+                                        <td>2.32</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>6</td>
+                                        <td>Deception</td>
+                                        <td>Miles Davis, arranged by Gerry Mulligan</td>
+                                        <td>2.45</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>7</td>
+                                        <td>Godchild</td>
+                                        <td>George Wallington, arranged by Gerry Mulligan</td>
+                                        <td>3:07</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>8</td>
+                                        <td>Boplicity</td>
+                                        <td>Cleo Henry, i.e. Davis and Gil Evans, arranged by Gil Evans</td>
+                                        <td>2.59</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>9</td>
+                                        <td>Rocker</td>
+                                        <td>Gerry Mulligan</td>
+                                        <td>3:03</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>10</td>
+                                        <td>Israel</td>
+                                        <td>Johnny Carisi</td>
+                                        <td>2.15</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>11</td>
+                                        <td>Rouge</td>
+                                        <td>John Lewis</td>
+                                        <td>3:13</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>12</td>
+                                        <td>Darn That Dream</td>
+                                        <td>Eddie DeLange, Jimmy Van Heusen, arranged by Gerry Mulligan</td>
+                                        <td>3:26</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col album-position" id="sketchesofspain">
+                        <button class="btn" data-toggle="collapse" data-target="#collapsesos">
+                            <img class="album-size" src="assets/image/sketchesofspain.jpg " alt="Sketches of Spain">
+                        </button>
+                    </div>
+                    <div id="collapsesos" class="collapse" aria-labelledby="sketchesofspain" data-parent="#myrecomendations">
+                        <div class="album-details ">
+                            <p>Sketches of Spain</p>
+                            <p>Label:<span class="album-details-text">Capital</span> </p>
+                            <p>Format: <span class="album-details-text">LP, Reel Tape</span>
+                            </p>
+                            <p>Year of Release: <span class="album-details-text">1960</span>
+                            </p>
+                            <hr class="block-divider block-divider--short block-divider--red">
+                            <table id="album-background-red" class="table table-bordered">
+                                <thead class="thead-dark table-bordered--dark album-track-header">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Writer(s)</th>
+                                        <th scope="col">Length</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="album-track-text">
+                                    <tr class="table-bordered--dark">
+                                        <td>1</td>
+                                        <td>Concierto de Aranjuez (Adagio)</td>
+                                        <td>Joaquín Rodrigo</td>
+                                        <td>16:19</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>2</td>
+                                        <td>Will o' the Wisp</td>
+                                        <td>Manuel de Falla</td>
+                                        <td>3:47</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>3</td>
+                                        <td>The Pan Piper (Alborada de Vigo)</td>
+                                        <td>Traditional</td>
+                                        <td>3:52</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>4</td>
+                                        <td>Saeta</td>
+                                        <td>Gil Evans</td>
+                                        <td>5:06</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>5</td>
+                                        <td>Solea</td>
+                                        <td>Gil Evans</td>
+                                        <td>12:15</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="album-position" id="bitchesbrew">
+                        <button class="btn" data-toggle="collapse" data-target="#collapsebb">
+                            <img class="album-size" src="assets/image/bitchesbrew.jpg " alt="Bitches Brew">
+                        </button>
+                    </div>
+                    <div id="collapsebb" class="collapse" aria-labelledby="bitchesbrew" data-parent="#myrecomendations">
+                        <div class="album-details">
+                            <p>Bitches Brew</p>
+                            <p>Label: <span class="album-details-text">Columbia</span> </p>
+                            <p>Format: <span class="album-details-text">LP, Reel Tape, 8 Track Tape</span> </p>
+                            <p>Year of Release: <span class="album-details-text">1970 </span></p>
+                            <hr class="block-divider block-divider--short block-divider--red">
+                            <table id="album-background-skyblue" class="table table-bordered">
+                                <thead class="thead-dark table-bordered--dark album-track-header">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Writer(s)</th>
+                                        <th scope="col">Length</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="album-track-text">
+                                    <tr class="table-bordered--dark">
+                                        <td>1</td>
+                                        <td>Pharaoh's Dance</td>
+                                        <td>Joe Zawinul</td>
+                                        <td>20:00</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>2</td>
+                                        <td>Bitches Brew</td>
+                                        <td>Miles Davis</td>
+                                        <td>26:59</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>3</td>
+                                        <td>Spanish Key</td>
+                                        <td>Miles Davis</td>
+                                        <td>17:29</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>4</td>
+                                        <td>John McLaughlin</td>
+                                        <td>Miles Davis</td>
+                                        <td>4:26</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>6</td>
+                                        <td>Miles Runs the Voodoo Down</td>
+                                        <td>Miles Davis</td>
+                                        <td>14:04</td>
+                                    </tr>
+                                    <tr class="table-bordered--dark">
+                                        <td>7</td>
+                                        <td>Sanctuary</td>
+                                        <td>Wayne Shorter</td>
+                                        <td>10:52</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <footer id="footer-details" class="container-fluid">
-        <div class="row footer-mobile-details">
-            <div class="col-sm-8">
-                <h5 class="uppercase footer-text">About</h5>
-                <p class="footer-text">This Website is a discography of Miles Davis Studio Albums. It has been built for Educational purposes</p>
+        <div class="row footer-mobile-details ">
+            <div class="col-sm-8 ">
+                <h5 class="uppercase footer-text ">About</h5>
+                <p class="footer-text ">This Website is a discography of Miles Davis Studio Albums. It has been built for Educational purposes</p>
             </div>
 
-            <div class="col-sm-4">
-                <h5 class="uppercase footer-text">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
+            <div class="col-sm-4 ">
+                <h5 class="uppercase footer-text ">Social</h5>
+                <ul class="list-inline social-links ">
+                    <li class="list-inline-item ">
+                        <a target="_blank" href="# ">
+                            <i class="fab fa-facebook-f " aria-hidden="true"></i>
+                            <span class="sr-only ">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
+                    <li class="list-inline-item ">
+                        <a target="_blank" href="# ">
+                            <i class="fab fa-twitter " aria-hidden="true"></i>
+                            <span class="sr-only ">Twitter</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item ">
                         <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <i class="fab fa-instagram " aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                    <li class="list-inline-item ">
+                        <a target="_blank" href="# ">
                             <i class="fab fa-youtube-square" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
@@ -117,9 +376,9 @@
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous"></script>
 
 </body>
 
