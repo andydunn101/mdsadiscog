@@ -61,6 +61,15 @@ header {
     font-weight: 700;
 }
 
+.contact-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* ---------------------------------------------------- Navbar */
 
@@ -122,6 +131,10 @@ header {
 .btn:active {
     outline: none !important;
     box-shadow: none;
+}
+
+.btn-outline-primary {
+    margin-bottom: 5px;
 }
 
 
@@ -301,6 +314,40 @@ footer {
 
 /*---------------------------------------------------- Contact Form */
 
+.contact-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.contact-image-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.contact-image {
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #375a7f;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.contact-text {
+    font-family: "Lato", sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 30px;
+    padding-left: 10px;
+}
+
 
 /* ---------------------------------------------------- Media Queries */
 
@@ -343,5 +390,15 @@ footer {
     }
     .album-track-text {
         font-size: 12.5px;
+    }
+    .contact-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+    .contact-image {
+        height: 200px;
+        margin-bottom: 10px;
     }
 }
