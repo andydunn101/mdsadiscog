@@ -2,11 +2,7 @@
 
 /* ---------------------------------------------------- Colours */
 
-.bg_biog_section {
-    background-color: rgba(55, 90, 127, .5);
-}
-
-.bg_disc_section {
+.bgsection {
     background-color: rgba(8, 2, 63, 0.5);
 }
 
@@ -20,6 +16,11 @@ h4 {
     margin: 0;
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 
 /* ---------------------------------------------------- Heading */
 
@@ -31,10 +32,11 @@ header {
     text-transform: uppercase;
 }
 
-.heading {
+
+/*.heading {
     margin-left: 0;
-    background-color: #375a7f;
-}
+    background-color: rgba(8, 2, 63, 0.5);
+}*/
 
 .heading-quote {
     font-family: "Ranga", cursive;
@@ -98,6 +100,10 @@ header {
     font-weight: bold;
 }
 
+.bg-primary {
+    background-color: rgba(8, 2, 63, 0.5) !important;
+}
+
 .bg-primary .navbar-nav .active>.nav-link {
     color: #74e5f0 !important;
 }
@@ -141,7 +147,7 @@ header {
 /* ---------------------------------------------------- Footer */
 
 footer {
-    background-color: #375a7f;
+    background-color: rgba(8, 2, 63, 0.5);
     color: #fff;
     min-height: 20px;
     margin: 0;
@@ -223,14 +229,42 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .video-size {
     margin: 10px;
     height: 200px;
     width: 300px;
+}
+
+.audio-album-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-album-size {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.audio-text {
+    font-family: "Lato", sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-position {
+    align-items: centre;
+    justify-content: centre;
 }
 
 
@@ -270,7 +304,7 @@ footer {
     font-size: 20px;
     font-weight: 800;
     color: #fafafa;
-    text-align: left;
+    text-align: center;
 }
 
 .album-details-text {
@@ -299,6 +333,12 @@ footer {
     background-origin: content-box;
 }
 
+#album-background-grey {
+    background-color: #646464;
+    background-size: cover;
+    background-origin: content-box;
+}
+
 #album-background-red {
     background-color: #f12e28;
     background-size: cover;
@@ -307,6 +347,36 @@ footer {
 
 #album-background-skyblue {
     background-color: #2cb4eb;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-blue {
+    background-color: #3d1dee;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-green {
+    background-color: #055e1b;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-orange {
+    background-color: #f5630e;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-yellow {
+    background-color: #e8ba25;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#album-background-brown {
+    background-color: #642603;
     background-size: cover;
     background-origin: content-box;
 }
@@ -382,6 +452,12 @@ footer {
         margin: 10px;
         height: 500px;
         width: 900px;
+    }
+    .audio-text {
+        margin-top: 45px;
+    }
+    .audio-position {
+        margin-top: 30px;
     }
     .album-size {
         height: 300px;
