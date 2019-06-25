@@ -203,9 +203,11 @@ footer {
 
 .biog-image {
     height: 200px;
+    width: 200px;
     border-width: 5px;
     border-style: solid;
     border-color: #375a7f;
+    margin-bottom: 5px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -246,8 +248,8 @@ footer {
 }
 
 .audio-album-size {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     margin: 10px;
 }
 
@@ -255,16 +257,16 @@ footer {
     font-family: "Lato", sans-serif;
     color: #fafafa;
     font-weight: 500;
-    font-size: 15px;
-    margin: 10px;
+    font-size: 20px;
     padding-left: 10px;
+    position: relative;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .audio-position {
-    align-items: centre;
-    justify-content: centre;
+    display: center;
 }
 
 
