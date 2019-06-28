@@ -262,11 +262,15 @@ footer {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
 
 .audio-position {
-    display: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    display: table;
+    /*    margin-left: 50px;*/
 }
 
 
@@ -458,9 +462,6 @@ footer {
     .audio-text {
         margin-top: 45px;
     }
-    .audio-position {
-        margin-top: 30px;
-    }
     .album-size {
         height: 300px;
         width: 300px;
@@ -468,6 +469,10 @@ footer {
     }
     .album-track-text {
         font-size: 12.5px;
+    }
+    .audio-position {
+        margin-top: 30px;
+        /* margin-left: 0px;*/
     }
     .contact-form {
         padding-top: 30px;
