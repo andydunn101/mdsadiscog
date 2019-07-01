@@ -32,12 +32,6 @@ header {
     text-transform: uppercase;
 }
 
-
-/*.heading {
-    margin-left: 0;
-    background-color: rgba(8, 2, 63, 0.5);
-}*/
-
 .heading-quote {
     font-family: "Ranga", cursive;
     font-size: 15px;
@@ -333,55 +327,55 @@ footer {
 
 /* ---------------------------------------------------- Album Backgrounds */
 
-#album-background-black {
+.album-background-black {
     background-color: #000;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-grey {
+.album-background-grey {
     background-color: #646464;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-red {
+.album-background-red {
     background-color: #f12e28;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-skyblue {
+.album-background-skyblue {
     background-color: #2cb4eb;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-blue {
+.album-background-blue {
     background-color: #3d1dee;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-green {
+.album-background-green {
     background-color: #055e1b;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-orange {
+.album-background-orange {
     background-color: #f5630e;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-yellow {
+.album-background-yellow {
     background-color: #e8ba25;
     background-size: cover;
     background-origin: content-box;
 }
 
-#album-background-brown {
+.album-background-brown {
     background-color: #642603;
     background-size: cover;
     background-origin: content-box;
