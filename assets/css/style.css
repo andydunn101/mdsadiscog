@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|Ranga:100,200,300,400,500,600,700');
 
-/* ---------------------------------------------------- Colours */
+/*  Colours */
 
 .bgsection {
     background-color: rgba(8, 2, 63, 0.5);
 }
 
 
-/* ---------------------------------------------------- Special paddings/margins/text */
+/*  Special paddings/margins/text */
 
 h1,
 h2,
@@ -26,7 +26,7 @@ h4 {
 }
 
 
-/* ---------------------------------------------------- Heading */
+/*  Heading */
 
 header {
     margin: 0;
@@ -71,7 +71,7 @@ header {
 }
 
 
-/* ---------------------------------------------------- Navbar */
+/*  Navbar */
 
 .navbar-brand {
     margin: 0;
@@ -112,7 +112,7 @@ header {
 }
 
 
-/* ---------------------------------------------------- Hover.css */
+/*  Hover.css */
 
 .navbar .navbar-nav .nav-item a:hover {
     color: #74e5f0;
@@ -142,7 +142,7 @@ header {
 }
 
 
-/* ---------------------------------------------------- Footer */
+/*  Footer */
 
 footer {
     background-color: rgba(8, 2, 63, 0.5);
@@ -190,7 +190,7 @@ footer {
 }
 
 
-/* ---------------------------------------------------- Biographical Info */
+/*  Biographical Info */
 
 .biog-image-position {
     position: relative;
@@ -222,7 +222,7 @@ footer {
 }
 
 
-/* ---------------------------------------------------- Video Audio */
+/*  Video Audio */
 
 .video-position {
     position: relative;
@@ -268,11 +268,10 @@ footer {
     display: flex;
     margin: 0 auto;
     display: table;
-    /*    margin-left: 50px;*/
 }
 
 
-/* ---------------------------------------------------- Albums */
+/*  Albums */
 
 .album-text {
     font-family: "Lato", sans-serif;
@@ -329,7 +328,7 @@ footer {
 }
 
 
-/* ---------------------------------------------------- Album Backgrounds */
+/*  Album Backgrounds */
 
 .album-background-black {
     background-color: #000;
@@ -386,7 +385,7 @@ footer {
 }
 
 
-/*---------------------------------------------------- Contact Form */
+/*  Contact Form */
 
 .contact-form {
     padding-top: 10px;
@@ -423,7 +422,7 @@ footer {
 }
 
 
-/* ---------------------------------------------------- Media Queries */
+/*  Media Queries */
 
 @media (min-width: 1000px) {
     .navbar-brand {
@@ -470,7 +469,6 @@ footer {
     }
     .audio-position {
         margin-top: 30px;
-        /* margin-left: 0px;*/
     }
     .contact-form {
         padding-top: 30px;
