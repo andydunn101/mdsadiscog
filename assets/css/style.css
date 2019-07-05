@@ -329,58 +329,45 @@ footer {
 
 /*  Album Backgrounds */
 
-.album-background-black {
-    background-color: #000;
+.album-background {
     background-size: cover;
     background-origin: content-box;
+}
+
+.album-background-black {
+    background-color: #000;
 }
 
 .album-background-grey {
     background-color: #646464;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-red {
     background-color: #f12e28;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-skyblue {
     background-color: #2cb4eb;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-blue {
     background-color: #3d1dee;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-green {
     background-color: #055e1b;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-orange {
     background-color: #f5630e;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-yellow {
     background-color: #e8ba25;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 .album-background-brown {
     background-color: #642603;
-    background-size: cover;
-    background-origin: content-box;
 }
 
 
