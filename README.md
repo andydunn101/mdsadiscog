@@ -61,7 +61,7 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
   - The Cloud9 IDE was used to start the initial development of the project.
 - [Virtual Studio Code](https://code.visualstudio.com/)
   - The IDE was used to complete the project.
-- [Bootstrap framework](https://getbootstrap.com/)
+- [Bootstrap framework](https://getbootstrap.com/) 
   - Using Bootstrap4  to provide the framework to build a user friendly and responsive website.
 - [Bootswatch](https://bootswatch.com)
     - To use a specific bootstrap theme for the website. The theme used is "Darkly".
@@ -69,7 +69,7 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
     - Required for the JavaScript to for the responsive navbar and dropdown features.
 - [Popper.js](https://popper.js.org/)
     - Required for the JavaScript for the responsive navbar
-- [Font Awesome](https://fontawesome.com/start)
+- [Font Awesome](https://fontawesome.com/start) and [Bootstrap CDN](https://www.bootstrapcdn.com/)
 	- Used to provide standard font images, used in the footer.
 - [Google Fonts](https://fonts.google.com/)
     - Providing standard Font Types Roboto, Lato and Ranga.
