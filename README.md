@@ -13,6 +13,7 @@ The aim of this website is allow fans of  Miles Davis to identify the studio alb
 - Watch a recorded performance.
 - On each studio recording identify the label, year of recording and tracks recorded.
 - Listen to a sample of Miles Davis music from each decade.
+- The ability to contact the webpage owner.
 - Determine if there are any live performance by Tribute acts available. 
 
 ### Wireframes
@@ -24,33 +25,32 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
 
 ### Features Implemented
 
-- The Home Page
-	- Provide a brief biography of Miles Davis and his work
-	- Have links to the each decade that Studio Recordings were produced
-	- A video of a Miles Davis performance
-	- My Recommendations as a starting point. This has been included as new new releases are available (although albums are occasionally re-released)
-		- When clicked on each Album will contain the Year of Recording, Record Label and Track Listing
-	
-- The Discography By Year Pages
-	- A brief description of the Recordings and Styles recorded in that decade
-	- Audio recordings from Studio recordings
-	- A list of Albums recorded in that decade
-		- When clicked on each Album will contain the Year of Recording, Record Label and Track Listing
-
-- The Tour / Contact Page
-	- Identify current Tribute acts as of May/June 2019 and any Tour Dates
+- Home Page.
+	- Provide a brief biography of Miles Davis and his work.
+	- Have links to the each decade that Studio Recordings were produced.
+	- A video of a Miles Davis performance.
+	- My Recommendations as a starting point. This has been included as no new releases are available (although albums are occasionally re-released).
+		- When clicked on each album will contain the Year of Recording, Record Label and Track Listing.
+- Discography By decade pages.
+	- Recordings are done over 5 decades. There are four pages 1950's, 1960's, 1970's and the 1980's/90's (only 1 studio recording was released in the 1990's).
+	- A brief description of the recordings and styles recorded in that decade.
+	- Audio recordings from Studio recordings.
+	- A list of Albums recorded in that decade.
+  - When clicked on each Album will contain the Year of Recording, Record Label and Track Listing.
+- Contact Page
+	- Identify current Tribute acts.
 	- A contact form for further information
-	
 - The footer on each page
 	- Will have an about section
 	- Will contain links to Social Media icons
 	
 ### Features to be implemented
 
-- The contact section will need a link to an email server
-- I have no social media accounts and the icons have been added to fulfil the brief.
+- The contact section will need a link to an email server and was added to fulfil the brief.
+- No social media accounts were available and the icons have been added to fulfil the brief.
 - Not all Miles Davis recordings have been included. Further upgrades would include live recordings and box sets
-- A search facility to identify which tracks are on which recording
+- A search facility to identify which tracks are on which recording.
+- Add pagination or cover flow to improve ease of use.
 
 
 ## Technologies Used
