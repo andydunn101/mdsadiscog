@@ -186,23 +186,39 @@ All tests for functionality proved successful, but the placement of the audio re
 
 ### Content
 
-- The text for this content is taken from Wikipedia article, Miles Davis Website and his autobiography
+- The text for this content is taken from [Wikipedia](https://en.wikipedia.org/wiki/Miles_Davis) , [Miles Davis Website](https://www.milesdavis.com/) and his autobiography "Mile: An Autobiography By Miles Davis with Quincy Troupe"
 
 ### Media
 
 - The images for this site were obtained from
-	- Album Artwork from Wikipedia - see for Miles Wikipedia discography to view albums
+	- Album Artwork from Wikipedia - see for [Miles Wikipedia discography](https://en.wikipedia.org/wiki/Miles_Davis_discography) to view albums and get the cover artwork. Some of the artwork images are from my personal record collection. The Album Artwork is copyrighted to the record labels associated with Miles Davis - Prestige, Columbia and Warner Bros.
+	- Images on the website are taken from Wikipedia and Encyclopaedia Britannica. Specific acknowledgements
+	  - Image on index page - By derivative work: — Malik Shabazz (talk • contribs) - Miles Davis by Palumbo.jpg, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=5103571
+	  - Image on 1950's page - from National Public Radio, Getty Images, https://media.npr.org
+	  - Image on 1960's page - By Mallory1180 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=56137966
+	  - Image on 1970's page - By User:JPRoche - https://commons.wikimedia.org/wiki/File:Miles_Davis-140916-0016-103WP.jpg, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35905516
+	  - Image on 1980's page - By Jean Fortunet - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=12359333
+	  - Image on Contact Page - Votavafoto from London Daily Express/Pictorial Parade
 	- The video was from You Tube 
-	- All audio recordings were from my record collection 
+	- All audio recordings were from my personal record collection.
 
 ### Acknowledgments
 
 Inspiration for this project must go to:
 
 1. My Father who always listened to the Radio 2 Jazz program while growing up.
-2. My mentor Simen Dahlin for helping put this website into practice.
-3. Code Institute in highlighting a design strategy and code that can be easily reused
-3. Carlos Santana who while at one of his concerts had a T-Shirt on which read "Listen to Miles Davis".
-4. **Finally and most importantly Miles Davis for producing such fantastic music.**
 
-	
+2. My mentor Simen Dahlin for helping put this website into practice.
+
+3. Code Institute in highlighting a design strategy and code that can be easily reused
+
+4. Carlos Santana who while at one of his concerts had a T-Shirt on which read "Listen to Miles Davis".
+
+5. My wife for putting up with me while playing jazz music too loud.
+
+6. **Finally and most importantly Miles Davis for producing such fantastic music.**
+
+   
+
+**Disclaimer**: This website is for Educational purposes only and all images and recordings were used on this basis.
+
