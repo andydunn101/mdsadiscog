@@ -56,15 +56,25 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
 
 ## Technologies Used
 
-- Bootstrap framework (https://getbootstrap.com/)
-	- Provide the framework to build a user friendly website
-	- Use of JavaScript to implement the navigation bars and dropdown features
-- Bootswatch (https://bootswatch.com)
-    - To use a specific bootstrap theme for the website. The theme used is "Darkly"
-- Font Awesome (https://fontawesome.com/start)
+- The project uses HTML5 and CSS programming languages. 
+- [Cloud9](https://c9.io/)
+  - The Cloud9 IDE was used to start the initial development of the project.
+- [Virtual Studio Code](https://code.visualstudio.com/)
+  - The IDE was used to complete the project.
+- [Bootstrap framework](https://getbootstrap.com/)
+  - Using Bootstrap4  to provide the framework to build a user friendly and responsive website.
+- [Bootswatch](https://bootswatch.com)
+    - To use a specific bootstrap theme for the website. The theme used is "Darkly".
+- [jQuery](https://jquery.com/)
+    - Required for the JavaScript to for the responsive navbar and dropdown features.
+- [Popper.js](https://popper.js.org/)
+    - Required for the JavaScript for the responsive navbar
+- [Font Awesome](https://fontawesome.com/start)
 	- Used to provide standard font images, used in the footer.
-- Google Fonts (https://fonts.google.com/)
-    - Providing standard Font Types Roboto, Lato and Ranga 
+- [Google Fonts](https://fonts.google.com/)
+    - Providing standard Font Types Roboto, Lato and Ranga.
+- [Favicon](https://realfavicongenerator.net/)
+    - To produce the icon image of the vinyl record. 
 
 ## Deployment
 
