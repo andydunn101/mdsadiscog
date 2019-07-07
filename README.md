@@ -7,14 +7,13 @@ of the legendary jazz trumpeter and band leader Miles Davis.
 
 ## UX
 
-The aim of this website is allow mainly me and other fans to see what albums Miles Davis recorded 
-and what tracks are on each album.
+The aim of this website is allow fans of  Miles Davis to identify the studio albums recorded and the tracks recorded.
 
-- I want to know what recordings occurred in a specific decade
-- Watch an actual performance 
-- When looking on a studio recording I want to know what tracks are on a specific album
-- I would like to listen to a sample of Miles Davis music by decade
-- See if there are any live performance by Tribute acts available
+- Identify the recordings that occurred in a specific decade.
+- Watch a recorded performance.
+- On each studio recording identify the label, year of recording and tracks recorded.
+- Listen to a sample of Miles Davis music from each decade.
+- Determine if there are any live performance by Tribute acts available. 
 
 ### Wireframes
 
