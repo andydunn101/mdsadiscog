@@ -1,6 +1,6 @@
 # Miles Davis Studio Album Discography
 
-NOTE: This website is for Educational purposes only
+NOTE: This website is for Educational purposes only and all images and recordings were used on this basis.
 
 The aim of the project is to provide a comprehensive list of the Studio Recordings 
 of the legendary jazz trumpeter and band leader Miles Davis. 
@@ -78,7 +78,23 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
 
 ## Deployment
 
+The project was developed using both the [Cloud9](https://c9.io/) and [Virtual Studio Code](https://code.visualstudio.com/). 
 
+Code management and deployment is managed by committing code git and the stored externally in [GitHub](https://github.com/).
+
+All the code for this project can be found in the [GitHub Repository](https://github.com/andydunn101/mdsadiscog) from where the website was deployed using git pages:
+
+1. Log into GitHub.
+2. Select "andydunn101/mdsadiscog" from the list of repositories.
+3. Select "Settings "from the heading bar.
+4. Scroll down to the GitHub pages section and in the "Source" section.
+   - Click the drop down and select "Master Branch".
+5. The page will be automatically refreshed and the website is now deployed.
+6. Scroll to the GitHub Pages section and retrieve the link to the deployed website.
+
+When the milestone project is submitted the development and master branches will be identical and no further changes will be made.
+
+If you wish to run this project locally please seek permission due to the audio content deployed on the website. Local deployment can be done using the standard cloning method described in the GitHub article ["Cloning a repository"](https://help.github.com/en/articles/cloning-a-repository) .
 
 ## TESTING
 
@@ -86,9 +102,7 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
 - [W3C Markup Validation](https://validator.w3.org/)
   - The  **W3C CSS Validation Service** and **W3C  Markup Validation Service** was used to check the code validity.
 
-### Testing Process
-
-#### Feature Testing
+### Feature Testing
 
 Each test was carried out using Google Chrome and it's Dev Kit to run each of the tests. 
 
@@ -150,7 +164,7 @@ Each test was carried out using Google Chrome and it's Dev Kit to run each of th
       2. Incorrect email format.
       3. Correct email and no text entered.
 
-#### General Testing and Outcome
+### General Testing and Outcome
 
 The website was given to family members who use different devices to review and pass feedback to ensure it's viability. The main comments were missed images and iPad positioning of audio (see below). Image changes were rectified and retested. 
 
@@ -167,8 +181,6 @@ Tests were carried out on the following devices
 All were informed that the contact page and social media sections would not be available for use.
 
 All tests for functionality proved successful, but the placement of the audio requires some attention in the next release.
-
-
 
 ## Credits
 
