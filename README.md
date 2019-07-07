@@ -51,6 +51,7 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
 - Not all Miles Davis recordings have been included. Further upgrades would include live recordings and box sets
 - A search facility to identify which tracks are on which recording.
 - Add pagination or cover flow to improve ease of use.
+- Centring of Audio Text and player for iPad and each browser.
 
 
 ## Technologies Used
@@ -76,6 +77,98 @@ All wireframes can be found in the pdf document [mdsadesign.pdf](assets/wirefram
     - To produce the icon image of the vinyl record. 
 
 ## Deployment
+
+
+
+## TESTING
+
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation](https://validator.w3.org/)
+  - The  **W3C CSS Validation Service** and **W3C  Markup Validation Service** was used to check the code validity.
+
+### Testing Process
+
+#### Feature Testing
+
+Each test was carried out using Google Chrome and it's Dev Kit to run each of the tests. 
+
+1. Home Page
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. From the browser, hover over navbar to ensure navigation text is highlighted.
+   3. Use Navbar to connect to each page and in the browser check the Fav Icon is shown on all pages.
+   4. Play video of "So What".
+   5. From the browser, hover over album cover to show margin is highlighted.
+   6. Click on Album to reveal dropdown box.
+   7. Click on different Album to reveal new dropdown box and close original dropdown box.
+   8. Click on the same Album to close dropdown box. 
+   9. From the browser, hover over Social Media links to ensure the Font Awesome Icon is highlighted.
+2. Album by Decade 1950's
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. From the browser, hover over navbar to ensure navigation text is highlighted.
+   3. Use Navbar to connect to each page and in the browser check the Fav Icon is shown on all pages.
+   4. Play audio of "Summertime" and "'Round Midnight'".
+   5. From the browser, hover over album cover to show margin is highlighted.
+   6. Click on Album to reveal dropdown box.
+   7. Click on different Album to reveal new dropdown box and close original dropdown box.
+   8. Click on the same Album to close dropdown box. 
+   9. From the browser, hover over Social Media links to ensure the Font Awesome Icon is highlighted.
+3. Album by Decade 1960's
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. From the browser, hover over navbar to ensure navigation text is highlighted.
+   3. Use Navbar to connect to each page and in the browser check the Fav Icon is shown on all pages.
+   4. Play audio of "Concierto De Aranjuez".
+   5. From the browser, hover over album cover to show margin is highlighted.
+   6. Click on Album to reveal dropdown box.
+   7. Click on different Album to reveal new dropdown box and close original dropdown box.
+   8. Click on the same Album to close dropdown box. 
+   9. From the browser, hover over Social Media links to ensure the Font Awesome Icon is highlighted.
+4. Album by Decade 1970's
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. From the browser, hover over navbar to ensure navigation text is highlighted.
+   3. Use Navbar to connect to each page and in the browser check the Fav Icon is shown on all pages.
+   4. Play audio of "Bitches Brew".
+   5. From the browser, hover over album cover to show margin is highlighted.
+   6. Click on Album to reveal dropdown box.
+   7. Click on different Album to reveal new dropdown box and close original dropdown box.
+   8. Click on the same Album to close dropdown box. 
+   9. From the browser, hover over Social Media links to ensure the Font Awesome Icon is highlighted.
+5. Album by Decade 1980/90's
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. From the browser, hover over navbar to ensure navigation text is highlighted.
+   3. Use Navbar to connect to each page and in the browser check the Fav Icon is shown on all pages.
+   4. Play audio of "Tutu".
+   5. From the browser, hover over album cover to show margin is highlighted.
+   6. Click on Album to reveal dropdown box.
+   7. Click on different Album to reveal new dropdown box and close original dropdown box.
+   8. Click on the same Album to close dropdown box. 
+   9. From the browser, hover over Social Media links to ensure the Font Awesome Icon is highlighted.
+6. Contact Page
+   1. Return to Home Page from the Header title "Miles Davis Studio Albums".
+   2. Test links to websites.
+   3. Test for error messages for:
+      1. All the contact details empty. 
+      2. Incorrect email format.
+      3. Correct email and no text entered.
+
+#### General Testing and Outcome
+
+The website was given to family members who use different devices to review and pass feedback to ensure it's viability. The main comments were missed images and iPad positioning of audio (see below). Image changes were rectified and retested. 
+
+Tests were carried out on the following devices 
+
+- Laptop.
+  - Browsers - Firefox, Google Chrome and Microsoft Edge.
+    - Each browser using a different audio player -Spacing and centring of Audio. (see features update)
+- iPhone 6 and 8 plus
+- iPad and iPad mini
+  - Issue not resolved on iPad - Spacing and centring of Audio. (see features update)
+- Samsung Galaxy A50
+
+All were informed that the contact page and social media sections would not be available for use.
+
+All tests for functionality proved successful, but the placement of the audio requires some attention in the next release.
+
+
 
 ## Credits
 
